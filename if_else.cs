@@ -8,6 +8,7 @@ namespace ncc_lab_prameshwor
     {
         static void Main(string[] args)
         {
+        
             int a = 10;
             if (a % 2 == 0)
             {
