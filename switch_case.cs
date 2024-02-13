@@ -8,7 +8,7 @@ namespace ncc_lab_prameshwor
         {
             int x, y;
             Console.WriteLine("enter the two values: ");
-            x = int.Parse(Console.ReadLine());
+            x = int.Parse(Console.ReadLine()); 
             y=int.Parse(Console.ReadLine());
             Console.WriteLine("operation\n");
             Console.WriteLine("1=addition\n2=subtraction\n3=multiplication\n4=division\n");
@@ -21,13 +21,13 @@ namespace ncc_lab_prameshwor
                     Console.WriteLine("add = " + (x + y));
                     break;
                 case 2:
-                    Console.WriteLine("add = " + (x - y));
+                    Console.WriteLine("sub = " + (x - y));
                     break;
                 case 3:
-                    Console.WriteLine("add = " + (x * y));
+                    Console.WriteLine("mul = " + (x * y));
                     break;
                 case 4:
-                    Console.WriteLine("add = " + (x / y));
+                    Console.WriteLine("div = " + (x / y));
                     break;
                 default:
                     Console.WriteLine("wrong choice");
